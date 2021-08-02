@@ -4,7 +4,7 @@
 
 ### Instruções para compilar
 
-Baixa o FreeRtos FreeRTOSv202107.00 pelo seguinte comando
+Baixe o FreeRtos FreeRTOSv202107.00 pelo seguinte link
 
 > https://github.com/FreeRTOS/FreeRTOS/releases/download/202107.00/FreeRTOSv202107.00.zip
 
@@ -23,6 +23,6 @@ Descompacte o arquivo .zip dentro da pasta RTOS-work  com o nome FreeRTOS. Seu d
 
 Dentro da pasta system uso comando make
 
-> cd system
+> cd System
 >
 > make
