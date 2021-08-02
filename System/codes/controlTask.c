@@ -5,7 +5,7 @@ void controlTask(void * controlData)
 {
 	struct systemData * data = (struct systemData *) controlData;
 
-	sensorData sensores;
+	struct sensorData sensores;
 
 	/*Requisitando os sensores*/
 	xQueuePeek(data->mb_sensor,&sensores,pdMS_TO_TICKS(2));
